@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cfa2e4;
+  margin: 40px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.formulario {
+  width: 60%;
+  background-color: #cf7fda;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.imagen {
+  width: 35%;
+  padding-left: 20px;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
