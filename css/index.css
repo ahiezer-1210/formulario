@@ -7,7 +7,7 @@ body {
 .contenedor {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .formulario {
@@ -16,15 +16,17 @@ body {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
 }
 
 .formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 8px;
+.formulario textarea:hover {
+  width: 99%;
+  padding: 6px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 20px color(srgb rgb(208, 161, 230) rgb(211, 122, 203) rgb(0, 0, 0));
+  border-radius: 10px;
+  align-items: center;
 }
 
 .imagen {
@@ -37,3 +39,5 @@ body {
   max-width: 300px;
   border-radius: 10px;
 }
+
+
